@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WoW SimDPS Rankings and Charts</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="chart-container">
+                <canvas id="myChart" width="920" height="300"></canvas>
+            </div>
+            <div class="table-responsive">
+                <h1 align="center">WoW SimDPS Rankings and Charts</h1>
+                <br/>
+                <div align="center">
+                    <button type="button" name="load_data" id="load_data" class="btn btn-info">Load Rankings</button>
+                    <button type="button" name="col_array" id="col_array" class="btn btn-info">Load Specs</button>
+                </div>
+                <br/>
+                <div id="employee_table" align="center"></div>
+            </div>
+        </div>
+    </body>
+</html>
